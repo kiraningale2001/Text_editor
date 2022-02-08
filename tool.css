@@ -1,0 +1,112 @@
+/*.homepage{
+    width:100%;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 0.3px 3px grey;
+    color: rgb(255, 190, 68);
+    text-align: center;
+   
+
+}
+.homepage h1{
+    bottom: 50%;
+    transform: translate(0%,170%);
+
+}
+*/
+body{
+    transition: all 1s;
+    
+}
+.container-flud{
+    background-color: rgba(255, 174, 0, 0.685);
+}
+sup{
+    color: hotpink;
+    width:12px;
+    height: 12px;
+    background-color: lawngreen;
+    border-radius: 50%;
+    display: inline-block;
+   
+}
+
+
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: #ffa947;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/*#navbar{
+    background-color: rgb(212, 212, 212);
+}*/
+
+#floatingTextarea2{
+    border:5px solid rgba(141, 219, 255, 0.884);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 216, 144);
+    background-color: rgba(241, 232, 232, 0.075);
+}
+#result{
+   margin-bottom:20px;
+   height: 300px;
+   width:100%;
+   padding:20px;
+   border:5px solid rgb(136, 231, 255);
+   overflow-y:scroll;
+}
+#errorplate{
+    display: none;
+    margin-top: 10px;
+    
+
+}
+#counted{
+    color: rgb(250, 77, 65);
+
+}
+#textcount{
+    font-weight: bold;
+}
+#aboutsection{
+    height:100vh;
+    overflow-x: scroll;
+}
+#aboutcontent{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(146, 146, 145);
+    background-color: rgba(241, 232, 232, 0.075);
+
+}
+#btn{
+    border: 1px solid orange;
+    background-color: none;
+    color: rgb(241, 28, 28);
+    box-shadow: 0.3px 2px 5px grey;
+}
+#btn:hover{
+    color: white !important;
+	background-color: #f39821 !important;
+}
+
+
+
+.loadimg{
+    z-index: 99999;
+    position:fixed;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width:100%;
+    background: white 
+    url('./loadingimg.gif') no-repeat center ;
+    transition: opacity 2s;
+    
+}
+
